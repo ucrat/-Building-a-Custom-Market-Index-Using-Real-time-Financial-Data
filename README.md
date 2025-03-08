@@ -2,7 +2,6 @@ import yfinance as yf
 import pandas as pd
 import os
 
-#IndexCalculator
 class IndexCalculator:
     def __init__(self, tickers, method):
         self.tickers = tickers
